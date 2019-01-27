@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.honker.wristbandattack.MainActivity">
+
+
+    <Button
+        android:id="@+id/scanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan"/>
+
+    <Button
+        android:id="@+id/step_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sport State" />
+
+    <Button
+        android:id="@+id/battery_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Battery Level"/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <Button
+                android:id="@+id/modifyTime"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Modifi"/>
+
+            <Button
+                android:id="@+id/change24"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="24HEX"/>
+
+            <Button
+                android:id="@+id/change12"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="12HEX"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/breakActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Break Connection"/>
+
+    <TextView
+        android:id="@+id/connection_state"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/setbar_bg"
+        android:gravity="center"
+        android:text="Connection State：OFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/device_information"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/setbar_bg2"
+        android:gravity="center"
+        android:text="Device Information"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/setbar_bg2"
+        android:gravity="center"
+        android:text="Device List"
+        android:textSize="20dp" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setbar_bg2"></ListView>
+
+
+</LinearLayout>

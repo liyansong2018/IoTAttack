@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WristbandAttack</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="MyDialog">自定义对话框</string>
+    <string name="textView1">用户名</string>
+    <string name="textView2">密码</string>
+</resources>
